@@ -611,18 +611,19 @@
 // ── DATA ── Edit this to add/update your projects!
 const projects = [
   {
-    id: 1,
-    title: "STM32 Motor Controller",
-    date: "2025",
-    tags: ["Embedded Systems", "C/C++", "STM32", "Mbed"],
-    description: "ADC-based motor speed control system built on an STM32 Nucleo board using Mbed OS. Implemented PWM output, serial communication, and real-time ADC sampling to drive a DC motor with closed-loop feedback.",
-    image: "", // Add image path e.g. "projects/motor-controller/cover.jpg"
-    files: [
-      { name: "main.cpp", type: "code", size: "4.2 KB", path: "projects/motor-controller/main.cpp" },
-      { name: "Lab Report.pdf", type: "pdf", size: "1.1 MB", path: "projects/motor-controller/report.pdf" },
-      { name: "Circuit Diagram.png", type: "image", size: "340 KB", path: "projects/motor-controller/circuit.png" },
-    ]
-  },
+  id: 1, // set to one more than your last project; use 1 if this is your first
+  title: 'Underwater Control Habitat System',
+  date: '2026',
+  tags: ['Concept Design', 'Systems Engineering', 'Simulink'],
+  description: 'Group concept design for a self-sufficient crewed underwater habitat. I led the systems work — a power distribution model in Simscape, plus SCADA, hybrid optical/acoustic comms, and AUV docking architecture.',
+  image: 'projects/underwater-habitat/Exterior CAD.png',
+  files: [
+    { name: 'Concept Design Report.pdf', type: 'pdf', size: '1.3 MB', path: 'projects/underwater-habitat/Concept Design For Underwater System by Shehab Taia.pdf' },
+    { name: 'Electrical Systems Report.pdf', type: 'pdf', size: '1.4 MB', path: 'projects/underwater-habitat/Simulation Design For Underwater System by Shehab Taia.pdf' },
+    { name: 'Electrical Model.slx', type: 'data', size: '629 KB', path: 'projects/underwater-habitat/IDP2_Shehab_Electrical_Systems_Model.slx' },
+    { name: 'Interior CAD.png', type: 'image', size: '609 KB', path: 'projects/underwater-habitat/Interior CAD.png' },
+  ]
+},
   {
     id: 2,
     title: "RC Circuit & Capacitance Lab",
